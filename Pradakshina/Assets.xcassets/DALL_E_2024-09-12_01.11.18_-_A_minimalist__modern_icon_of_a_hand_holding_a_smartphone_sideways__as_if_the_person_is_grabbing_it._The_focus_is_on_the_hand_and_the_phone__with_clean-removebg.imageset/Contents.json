@@ -1,0 +1,21 @@
+{
+  "images" : [
+    {
+      "filename" : "DALL_E_2024-09-12_01.11.18_-_A_minimalist__modern_icon_of_a_hand_holding_a_smartphone_sideways__as_if_the_person_is_grabbing_it._The_focus_is_on_the_hand_and_the_phone__with_clean-removebg.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
