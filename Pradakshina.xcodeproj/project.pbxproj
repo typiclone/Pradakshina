@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6BA025E32CA66B7C000C6704 /* success.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6BA025E22CA66B7C000C6704 /* success.mp3 */; };
 		6BD060502C9A8D0E0065D30C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BD0604F2C9A8D0E0065D30C /* AppDelegate.swift */; };
 		6BD060522C9A8D0E0065D30C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BD060512C9A8D0E0065D30C /* SceneDelegate.swift */; };
 		6BD060542C9A8D0E0065D30C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BD060532C9A8D0E0065D30C /* ViewController.swift */; };
@@ -16,6 +17,14 @@
 		6BD060672C9A8D100065D30C /* PradakshinaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BD060662C9A8D100065D30C /* PradakshinaTests.swift */; };
 		6BD060712C9A8D100065D30C /* PradakshinaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BD060702C9A8D100065D30C /* PradakshinaUITests.swift */; };
 		6BD060732C9A8D100065D30C /* PradakshinaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BD060722C9A8D100065D30C /* PradakshinaUITestsLaunchTests.swift */; };
+		6BD060802C9A8D6C0065D30C /* CircularProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BD0607F2C9A8D6C0065D30C /* CircularProgressView.swift */; };
+		6BD060822C9A91020065D30C /* Analytics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BD060812C9A91020065D30C /* Analytics.swift */; };
+		6BD060842C9A92410065D30C /* LapChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BD060832C9A92410065D30C /* LapChart.swift */; };
+		6BD060862C9A934F0065D30C /* TimeChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BD060852C9A934F0065D30C /* TimeChart.swift */; };
+		6BD060892C9A9FA10065D30C /* TimerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BD060872C9A9FA10065D30C /* TimerCell.swift */; };
+		6BD0608A2C9A9FA10065D30C /* TimerCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6BD060882C9A9FA10065D30C /* TimerCell.xib */; };
+		6BD0608D2C9BE9E50065D30C /* waterfall.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6BD0608B2C9BE9E40065D30C /* waterfall.mp3 */; };
+		6BD0608E2C9BE9E50065D30C /* silence.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6BD0608C2C9BE9E50065D30C /* silence.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +45,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6BA025E22CA66B7C000C6704 /* success.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = success.mp3; sourceTree = "<group>"; };
 		6BD0604C2C9A8D0E0065D30C /* Pradakshina.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pradakshina.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6BD0604F2C9A8D0E0065D30C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6BD060512C9A8D0E0065D30C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +59,14 @@
 		6BD0606C2C9A8D100065D30C /* PradakshinaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PradakshinaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6BD060702C9A8D100065D30C /* PradakshinaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PradakshinaUITests.swift; sourceTree = "<group>"; };
 		6BD060722C9A8D100065D30C /* PradakshinaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PradakshinaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		6BD0607F2C9A8D6C0065D30C /* CircularProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularProgressView.swift; sourceTree = "<group>"; };
+		6BD060812C9A91020065D30C /* Analytics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Analytics.swift; sourceTree = "<group>"; };
+		6BD060832C9A92410065D30C /* LapChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LapChart.swift; sourceTree = "<group>"; };
+		6BD060852C9A934F0065D30C /* TimeChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeChart.swift; sourceTree = "<group>"; };
+		6BD060872C9A9FA10065D30C /* TimerCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimerCell.swift; sourceTree = "<group>"; };
+		6BD060882C9A9FA10065D30C /* TimerCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TimerCell.xib; sourceTree = "<group>"; };
+		6BD0608B2C9BE9E40065D30C /* waterfall.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = waterfall.mp3; sourceTree = "<group>"; };
+		6BD0608C2C9BE9E50065D30C /* silence.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = silence.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +124,15 @@
 				6BD060582C9A8D0F0065D30C /* Assets.xcassets */,
 				6BD0605A2C9A8D0F0065D30C /* LaunchScreen.storyboard */,
 				6BD0605D2C9A8D0F0065D30C /* Info.plist */,
+				6BD0608C2C9BE9E50065D30C /* silence.wav */,
+				6BD0608B2C9BE9E40065D30C /* waterfall.mp3 */,
+				6BA025E22CA66B7C000C6704 /* success.mp3 */,
+				6BD060872C9A9FA10065D30C /* TimerCell.swift */,
+				6BD060882C9A9FA10065D30C /* TimerCell.xib */,
+				6BD0607F2C9A8D6C0065D30C /* CircularProgressView.swift */,
+				6BD060812C9A91020065D30C /* Analytics.swift */,
+				6BD060832C9A92410065D30C /* LapChart.swift */,
+				6BD060852C9A934F0065D30C /* TimeChart.swift */,
 			);
 			path = Pradakshina;
 			sourceTree = "<group>";
@@ -231,9 +258,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6BD0608E2C9BE9E50065D30C /* silence.wav in Resources */,
+				6BD0608D2C9BE9E50065D30C /* waterfall.mp3 in Resources */,
 				6BD0605C2C9A8D0F0065D30C /* LaunchScreen.storyboard in Resources */,
 				6BD060592C9A8D0F0065D30C /* Assets.xcassets in Resources */,
+				6BA025E32CA66B7C000C6704 /* success.mp3 in Resources */,
 				6BD060572C9A8D0E0065D30C /* Main.storyboard in Resources */,
+				6BD0608A2C9A9FA10065D30C /* TimerCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,8 +289,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6BD060862C9A934F0065D30C /* TimeChart.swift in Sources */,
 				6BD060542C9A8D0E0065D30C /* ViewController.swift in Sources */,
 				6BD060502C9A8D0E0065D30C /* AppDelegate.swift in Sources */,
+				6BD060892C9A9FA10065D30C /* TimerCell.swift in Sources */,
+				6BD060842C9A92410065D30C /* LapChart.swift in Sources */,
+				6BD060802C9A8D6C0065D30C /* CircularProgressView.swift in Sources */,
+				6BD060822C9A91020065D30C /* Analytics.swift in Sources */,
 				6BD060522C9A8D0E0065D30C /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -445,6 +481,7 @@
 				DEVELOPMENT_TEAM = SX7WGHX7PV;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Pradakshina/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Pradakshina+";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -473,6 +510,7 @@
 				DEVELOPMENT_TEAM = SX7WGHX7PV;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Pradakshina/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Pradakshina+";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
